@@ -11,7 +11,7 @@ self.df_words = pd.read_excel('words.xlsx')
 ```
 - Any new Excel database should have same format as default one i.e. 2 columns have 
   languages names and all words with it's category in 3rd column
-  ![Excel database](https://imgur.com/a/iMFALEM)
+  ![excel](https://user-images.githubusercontent.com/117664884/203569594-6064b424-08e5-41dd-abbc-72915d7b16f1.PNG)
 - By default app supports only English and Polish. In order to use another language you need 
   to [download language pack for speech](https://support.microsoft.com/en-us/windows/download-language-pack-for-speech-24d06ef3-ca09-ddcc-70a0-63606fd16394)
   (if you don't have it already installed) 
