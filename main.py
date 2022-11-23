@@ -1,7 +1,6 @@
 import pandas as pd
 import pyttsx3
 import random
-import pyaudio
 import speech_recognition as sr
 import os
 
