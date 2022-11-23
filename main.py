@@ -14,8 +14,6 @@ class Flashcards:
         self.engine.setProperty('rate', 150)
         self.r = sr.Recognizer()
         self.mic = sr.Microphone()
-        self.polish = 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_PL-PL_PAULINA_11.0'
-        self.english = 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0'
         self.voices = {
             "English": ["HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0", "en-US"],
             "Polish": ["HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_PL-PL_PAULINA_11.0", "pl-PL"]
