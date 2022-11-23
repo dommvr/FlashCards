@@ -1,0 +1,4 @@
+pandas==1.5.2
+pandas_stubs==1.2.0.62
+pyttsx3==2.90
+SpeechRecognition==3.8.1
